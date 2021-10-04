@@ -1,5 +1,4 @@
 # hotel_web_application
-In this project, I am learning Spring Boot, which takes an opinionated view of the Spring platform. This is the basic projects of Spring to develop Java-based applications.
 
 Creating a project with Spring Initializr
 
