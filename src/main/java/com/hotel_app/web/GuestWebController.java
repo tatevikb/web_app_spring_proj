@@ -20,12 +20,12 @@ public class GuestWebController {
     public GuestWebController(ReservationService reservationService) {
         this.reservationService = reservationService;
     }
-/*
+
     @GetMapping
     public String getGuests(Model model){
         List<com.hotel_app.data.entity.Guest> guests = this.reservationService.getHotelGuests();
         model.addAttribute("guests", guests);
         return "guests";
     }
- */
+
 }

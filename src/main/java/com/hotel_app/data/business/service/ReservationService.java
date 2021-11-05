@@ -65,6 +65,7 @@ public class ReservationService {
         return roomReservations;
     }
 
+
     public List<Guest> getHotelGuests(){
         Iterable<Guest> guests = this.guestRepository.findAll();
         List<Guest> guestList = new ArrayList<>();
